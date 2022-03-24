@@ -1,6 +1,10 @@
 <html>
 <head>
 <title>Inventory</title>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.8.17/jquery-ui.min.js"></script>
+<script src="jquery.ui.touch-punch.min.js"></script>
+<script src="js/dnd.js"></script>
 <style>
 .body {
   background-color: #cccccc;
@@ -14,6 +18,7 @@
 .board {
   border: 1px solid #000000;
   padding: 0px;
+  display: inline-block;
 }
 .rowodd, .roweven {
   border: 0px solid;
@@ -24,7 +29,6 @@
 .roweven div:nth-child(even) { border: 2px solid #000000; background-color: #000000; }
 </style>
 <link rel="stylesheet" href="css/font.css">
-<script src="js/dnd.js"></script>
 </head>
 <body>
 <div id="board" class="board">
