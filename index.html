@@ -31,27 +31,60 @@
 <link rel="stylesheet" href="css/font.css">
 </head>
 <body>
+<html>
+<head>
+<title>Inventory</title>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.8.17/jquery-ui.min.js"></script>
+<script src="lib/jquery.ui.touch-punch.min.js"></script>
+<script src="js/dnd.js"></script>
+<style>
+.body {
+  background-color: #cccccc;
+}
+.space {
+  width: 16px;
+  height: 16px;
+  border: 0px solid;
+  float: left;
+}
+.board {
+  border: 1px solid #000000;
+  padding: 0px;
+  display: inline-block;
+}
+.rowodd, .roweven {
+  border: 0px solid;
+}
+.rowodd div:nth-child(odd) { border: 2px solid #000000; background-color: #000000; }
+.rowodd div:nth-child(even) { border: 2px solid #ffffff; background-color: #ffffff; }
+.roweven div:nth-child(odd) { border: 2px solid #ffffff; background-color: #ffffff; }
+.roweven div:nth-child(even) { border: 2px solid #000000; background-color: #000000; }
+</style>
+<link rel="stylesheet" href="css/font.css">
+</head>
+<body>
 <div id="board" class="board">
 <div class="rowodd">
-<div id="space1" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space2" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space3" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space4" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space5" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space6" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space7" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space8" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="space1" class="space"></div>
+<div id="space2" class="space"></div>
+<div id="space3" class="space"></div>
+<div id="space4" class="space"></div>
+<div id="space5" class="space"></div>
+<div id="space6" class="space"></div>
+<div id="space7" class="space"></div>
+<div id="space8" class="space"></div>
 <br>
 </div>
 <div class="roweven">
-<div id="space11" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space12" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space13" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space14" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space15" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space16" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space17" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="space18" class="space" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="space11" class="space"></div>
+<div id="space12" class="space"></div>
+<div id="space13" class="space"></div>
+<div id="space14" class="space"></div>
+<div id="space15" class="space"></div>
+<div id="space16" class="space"></div>
+<div id="space17" class="space"></div>
+<div id="space18" class="space"></div>
 <br>
 </div>
 </div>
