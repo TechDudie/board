@@ -3,9 +3,9 @@ board
 
 READ THIS @HARDWAREGORE BEFORE PIRATING MY CODE ↓↓↓
 
-Never gonna __GIVE YOU UP__
-Never gonna __LET YOU DOWN__
-Never gonna __RUN AROUND__
+Never gonna __GIVE YOU UP__<br>
+Never gonna __LET YOU DOWN__<br>
+Never gonna __RUN AROUND__<br>
 and __DESERT YOU__
 <!--
 Given the fact that this code is licensed under GPLv3, if another individual uses this code, they must:<br>
